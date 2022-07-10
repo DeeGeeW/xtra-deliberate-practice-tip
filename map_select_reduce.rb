@@ -5,23 +5,35 @@
 # Input: [1, 2, 3]
 # Output: [8, 9, 10]
 
-def array(nums)
-  i = 0
-  plus7 = []
-  while i < nums.length
-    plus7 << nums[i] + 7
-    i += 1
-  end
-  return plus7
-end
+# def array(nums)
+#   i = 0
+#   plus7 = []
+#   while i < nums.length
+#     plus7 << nums[i] + 7
+#     i += 1
+#   end
+#   return plus7
+# end
 
-p array([19, 22, 7, 18])
+# p array([19, 22, 7, 18])
 
 # #2
 # Write a function that accepts an array of strings and returns an array with each string's length.
 # Example:
 # Input: ["hello", "goodbye"]
 # Output: [5, 7]
+
+# def array(words)
+#   i = 0
+#   length = []
+#   while i < words.length
+#     length << words[i].length
+#     i += 1
+#   end
+#   return length
+# end
+
+# p array(["hello", "goodbye"])
 
 # #3
 # Write a function that accepts an array of numbers and returns an array with each number divided by 2.
