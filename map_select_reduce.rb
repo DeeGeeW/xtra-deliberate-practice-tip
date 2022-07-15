@@ -58,17 +58,17 @@
 # Example:
 # Input: ["hello", "goodbye"]
 # Output: ["h", "g"]
-def array(words)
-  i = 0
-  first = []
-  while i < words.length
-    first << words[i][0]
-    i += 1
-  end
-  return first
-end
+# def array(words)
+#   i = 0
+#   first = []
+#   while i < words.length
+#     first << words[i][0]
+#     i += 1
+#   end
+#   return first
+# end
 
-p array(["hello", "goodbye"])
+# p array(["hello", "goodbye"])
 
 # #5
 # Write a function that accepts an array of numbers and returns an array with each number converted into a string.
@@ -76,11 +76,37 @@ p array(["hello", "goodbye"])
 # Input: [1, 2, 3]
 # Output: ["1", "2", "3"]
 
+# def array(nums)
+#   i = 0
+#   string = []
+#   while i < nums.length
+#     string << nums[i].to_s
+#     i += 1
+#   end
+#   return string
+# end
+
+# p array([1, 2, 3])
+
 # #6
 # Write a function that accepts an array of numbers and returns a new array with only the even numbers.
 # Example:
 # Input: [2, 4, 5, 1, 8, 9, 7]
 # Output: [2, 4, 8]
+
+# def array(nums)
+#   i = 0
+#   even = []
+#   while i < nums.length
+#     if nums[i] % 2 == 0
+#       even << nums[i]
+#     end
+#     i += 1
+#   end
+#   return even
+# end
+
+# p array([2, 4, 5, 1, 8, 9, 7])
 
 # #7
 # Write a function that accepts an array of strings and returns an array with only the strings shorter than 4 letters.
