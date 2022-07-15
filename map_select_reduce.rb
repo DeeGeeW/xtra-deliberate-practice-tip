@@ -41,23 +41,34 @@
 # Input: [1, 2, 3]
 # Output: [0.5, 1.0, 1.5]
 
-def array(nums)
-  i = 0
-  half = []
-  while i < nums.length
-    half << nums[i] / 2.0
-    i += 1
-  end
-  return half
-end
+# def array(nums)
+#   i = 0
+#   half = []
+#   while i < nums.length
+#     half << nums[i] / 2.0
+#     i += 1
+#   end
+#   return half
+# end
 
-p array([1, 2, 3])
+# p array([1, 2, 3])
 
 # #4
 # Write a function that accepts an array of strings and returns an array with each string's first letter only.
 # Example:
 # Input: ["hello", "goodbye"]
 # Output: ["h", "g"]
+def array(words)
+  i = 0
+  first = []
+  while i < words.length
+    first << words[i][0]
+    i += 1
+  end
+  return first
+end
+
+p array(["hello", "goodbye"])
 
 # #5
 # Write a function that accepts an array of numbers and returns an array with each number converted into a string.
