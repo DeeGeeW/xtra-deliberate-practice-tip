@@ -41,6 +41,18 @@
 # Input: [1, 2, 3]
 # Output: [0.5, 1.0, 1.5]
 
+def array(nums)
+  i = 0
+  half = []
+  while i < nums.length
+    half << nums[i] / 2.0
+    i += 1
+  end
+  return half
+end
+
+p array([1, 2, 3])
+
 # #4
 # Write a function that accepts an array of strings and returns an array with each string's first letter only.
 # Example:
