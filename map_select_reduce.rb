@@ -114,6 +114,20 @@
 # Input: ["a", "man", "a", "plan", "a", "canal", "panama"]
 # Output: ["a", "man", "a", "a"]
 
+# def array(strings)
+#   i = 0
+#   short = []
+#   while i < strings.length
+#     if strings[i].length < 4
+#       short << strings[i]
+#     end
+#     i += 1
+#   end
+#   return short
+# end
+
+# p array(["a", "man", "a", "plan", "a", "canal", "panama"])
+
 # #8
 # Write a function that accepts an array of numbers and returns an array with only the numbers less than 10.
 # Example:
